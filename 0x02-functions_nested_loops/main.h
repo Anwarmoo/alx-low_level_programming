@@ -50,5 +50,10 @@ int _abs(int);
  * Return: last digit of integer
  */
 int print_last_digit(int);
+/**
+ * jack_bauer - jack bauer gooo
+ *
+ */
+void jack_bauer(void);
 
 #endif /* MAIN_H */
