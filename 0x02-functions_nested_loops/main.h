@@ -37,5 +37,11 @@ int _isalpha(int c);
  * Return: 1 or 0  or -1
  */
 int print_sign(int n);
+/**
+ * _abs - gives absolute value
+ * @int: integer
+ * Return: integer or abs value of int
+ */
+int _abs(int);
 
 #endif /* MAIN_H */
