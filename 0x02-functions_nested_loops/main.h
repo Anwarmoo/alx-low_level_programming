@@ -61,5 +61,18 @@ void jack_bauer(void);
  *
  */
 void times_table(void);
+/**
+ * add - adds stuff up
+ *
+ * @int: integers to add
+ * Return: returns a sum
+ */
+int add(int, int);
+/**
+ * print_to_98 - prints to 98
+ * @n: integer to start at
+ *
+ */
+void print_to_98(int n);
 
 #endif /* MAIN_H */
