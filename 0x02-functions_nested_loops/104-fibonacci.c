@@ -31,6 +31,6 @@ int main(void)
 		s2 = s2 + r2;
 		r2 = s2 - r2;
 	}
-	printf("\n");	
-	return (0);
+	printf("\n");
+return (0);
 }
