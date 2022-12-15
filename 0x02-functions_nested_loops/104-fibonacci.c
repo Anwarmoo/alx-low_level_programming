@@ -8,24 +8,19 @@
 int main(void)
 {
 	unsigned long int i, r, s, r1, r2, s1, s2;
-	
 	r = 1;
 	s = 2;
-	
 	printf("%lu", r);
-	
 	for (i = 1; i < 91; i++)
 	{
 		printf(", %lu", s);
 		s = s + r;
 		r = s - r;
 	}
-	
 	r1 = r / 1000000000;
 	r2 = r % 1000000000;
 	s1 = s / 1000000000;
 	s2 = s % 1000000000;
-	
 	for (i = 92; i < 99; ++i)
 	{
 		printf(", %lu", s1 + (s2 / 1000000000));
@@ -35,8 +30,6 @@ int main(void)
 		s2 = s2 + r2;
 		r2 = s2 - r2;
 	}
-	
-	printf("\n");
-	
+	printf("\n");	
 	return (0);
 }
