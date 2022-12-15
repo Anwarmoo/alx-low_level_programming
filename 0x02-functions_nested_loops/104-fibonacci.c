@@ -8,6 +8,7 @@
 int main(void)
 {
 	unsigned long int i, r, s, r1, r2, s1, s2;
+
 	r = 1;
 	s = 2;
 	printf("%lu", r);
