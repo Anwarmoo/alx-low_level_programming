@@ -21,5 +21,23 @@ int _isdigit(int c);
  * Return: gives result
  */
 int mul(int a, int b);
+/**
+ * print_numbers - prints the numbers
+ *
+ */
+void print_numbers(void);
+/**
+ * _putchar - writes the character c to std
+ * @c: parameter to compare
+ * Return: 1 or 0
+ */
+int _putchar(char c);
+void print_triangle(int size);
+/**
+ * print_number - prints number
+ *
+ * @n: integer to print to char
+ */
+void print_number(int n);
 
 #endif
