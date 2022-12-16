@@ -49,6 +49,12 @@ void more_numbers(void);
  */
 void print_line(int n);
 /**
+ * print_diagonal - prints diagonal
+ *
+ * @n: integer
+ */
+void print_diagonal(int n);
+/**
  * print_number - prints number
  *
  * @n: integer to print to char
