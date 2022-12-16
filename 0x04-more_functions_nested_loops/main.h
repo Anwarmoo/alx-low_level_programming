@@ -33,6 +33,11 @@ void print_numbers(void);
  */
 int _putchar(char c);
 /**
+ * print_most_numbers - prints the numbers
+ *
+ */
+void print_most_numbers(void);
+/**
  * print_number - prints number
  *
  * @n: integer to print to char
