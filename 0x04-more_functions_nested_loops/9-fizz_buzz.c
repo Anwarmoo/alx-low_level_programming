@@ -3,10 +3,11 @@
  * main - function that checks for uppercase character.
  * Return: 0
  */
+
 int main(void)
 {
 	int h = 1;
-	
+
 	while (h <= 100)
 	{
 		if (h % 3 == 0 && h % 5 == 0)
