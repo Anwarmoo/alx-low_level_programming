@@ -32,7 +32,6 @@ void print_numbers(void);
  * Return: 1 or 0
  */
 int _putchar(char c);
-void print_triangle(int size);
 /**
  * print_number - prints number
  *
