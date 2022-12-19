@@ -51,5 +51,11 @@ void rev_string(char *s);
  * @str: string to put twice
  */
 void puts2(char *str);
+/**
+ * puts_half - puts half
+ *
+ * @str: string to put half
+ */
+void puts_half(char *str);
 
 #endif
