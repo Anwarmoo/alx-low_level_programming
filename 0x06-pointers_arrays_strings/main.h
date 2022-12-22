@@ -70,5 +70,10 @@ char *leet(char *s);
  * Return: returns a char
  */
 char *rot13(char *s);
+/**
+ * print_number- prints a number
+ * @n: number to print to character
+ */
+void print_number(int n);
 
 #endif
