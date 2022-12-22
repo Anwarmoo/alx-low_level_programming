@@ -75,5 +75,12 @@ char *rot13(char *s);
  * @n: number to print to character
  */
 void print_number(int n);
+/**
+ * infinite_add - string to capitalize;
+ * @n1: first integer
+ * @n2: second integer
+ * Return: returns a value
+ */
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
 #endif
