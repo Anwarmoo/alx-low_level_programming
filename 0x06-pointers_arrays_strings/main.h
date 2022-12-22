@@ -39,5 +39,11 @@ char *_strncpy(char *dest, char *src, int n);
  * Return: int value
  */
 int _strcmp(char *s1, char *s2);
+/**
+ * reverse_array - reverses an array
+ * @a: array to reverse
+ * @n: how many elements
+ */
+void reverse_array(int *a, int n);
 
 #endif
