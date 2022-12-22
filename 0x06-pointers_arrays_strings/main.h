@@ -23,5 +23,13 @@ char *_strcat(char *dest, char *src);
  * Return: return char value
  */
 char *_strncat(char *dest, char *src, int n);
+/**
+ * _strncpy - function to copy
+ * @dest: destination to copy
+ * @src: source to copy
+ * @n: times to copy
+ * Return: return char value
+ */
+char *_strncpy(char *dest, char *src, int n);
 
 #endif
