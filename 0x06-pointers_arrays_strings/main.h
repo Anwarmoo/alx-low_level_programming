@@ -64,5 +64,11 @@ char *cap_string(char *s);
  * Return: returns character
  */
 char *leet(char *s);
+/**
+ * rot13 - converts to rot13
+ * @s: string to convert to rot13
+ * Return: returns a char
+ */
+char *rot13(char *s);
 
 #endif
