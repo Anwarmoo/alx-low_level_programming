@@ -57,5 +57,12 @@ char *string_toupper(char *s);
  * Return: return the string
  */
 char *cap_string(char *s);
+/**
+ * leet - switches characters to 1337
+ * @s: string to switch
+ *
+ * Return: returns character
+ */
+char *leet(char *s);
 
 #endif
