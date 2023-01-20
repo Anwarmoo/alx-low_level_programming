@@ -11,3 +11,6 @@
 
 ### 3. A goal is not always meant to be reached, it often serves simply as something to aim at.
 - 3-main.c, 3-op_functions.c, 3-get_op_func.c, 3-calc.h - a program that performs simple operations.
+
+### 4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker.
+- 100-main_opcodes.c - a program that prints the opcodes of its own main function.
