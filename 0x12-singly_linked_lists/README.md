@@ -14,3 +14,9 @@
 
 ### 4. Free list.
 - 4-free_list.c - a function that frees a list_t list.
+
+### 5. The Hare and the Tortoise.
+- 100-first.c - a function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
+
+### 6. Real programmers can write assembly code in any language.
+- 101-hello_holberton.asm - a 64-bit program in assembly that prints Hello, Holberton, followed by a new line.
