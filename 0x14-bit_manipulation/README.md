@@ -17,3 +17,9 @@
 
 ### 5. 101.
 - 5-flip_bits.c - a function that returns the number of bits you would need to flip to get from one number to another.
+
+### 6. Endianness.
+- 100-get_endianness.c - a function that checks the endianness.
+
+### 7. Crackme3.
+- 101-password - Find the password.
