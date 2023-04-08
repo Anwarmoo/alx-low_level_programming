@@ -24,21 +24,35 @@
 		- and `value` is the value associated with the key. `value` must be duplicated. value can be an empty string
 	- Returns: `1` if it succeeded, `0` otherwise
 
-4. >>> ht['betty'] [4-hash_table_get.c]
+04. >>> ht['betty'] [4-hash_table_get.c]
 - Write a function that retrieves a value associated with a key.
 	- Prototype: `char *hash_table_get(const hash_table_t *ht, const char *key);`
 		- where `ht` is the hash table you want to look into
 		- and key is the key you are looking for
 
 
-5. >>> print(ht) [5-hash_table_print.c]
+05. >>> print(ht) [5-hash_table_print.c]
 - Write a function that prints a hash table.
 	- Prototype: `void hash_table_print(const hash_table_t *ht);`
 		- where `ht` is the hash table
 		- You should print the key/value in the order that they appear in the array of hash table
 			- Order: array, list
 
-6. >>> del ht [6-hash_table_delete.c]
+06. >>> del ht [6-hash_table_delete.c]
 - Write a function that deletes a hash table.
 	- Prototype: `void hash_table_delete(hash_table_t *ht);`
 		- where `ht` is the hash table
+
+07. $ht['Betty'] = 'Cool'
+- Rewrite the previous functions using these data structures:`
+	- `shash_table_t *shash_table_create(unsigned long int size);
+	- `int shash_table_set(shash_table_t *ht, const char *key, const char *value);`
+		- The key/value pair should be inserted in the sorted list at the right place
+		- Note that here we do not want to do exactly like `PHP`: we want to create a sorted linked list, by key (sorted on ASCII value), that we can print by traversing it. See example.
+	- `char *shash_table_get(const shash_table_t *ht, const char *key);`
+	- `void shash_table_print(const shash_table_t *ht);`
+		- Should print the hash table using the sorted linked list
+	- `void shash_table_print_rev(const shash_table_t *ht);`
+		- Should print the hash tables key/value pairs in reverse order using the sorted linked list
+	- `void shash_table_delete(shash_table_t *ht);`
+	- You are allowed to have more than 5 functions in your file
