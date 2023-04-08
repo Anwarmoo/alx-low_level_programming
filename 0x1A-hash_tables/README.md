@@ -1,22 +1,22 @@
 # 0x1A. C - Hash tables
 
 ## Tasks
-00. >>> ht = {} [0-hash_table_create.c]
+### 00. `>>>` ht = {} [0-hash_table_create.c]
 - Write a function that creates a hash table.
 	- Prototype: `hash_table_t *hash_table_create(unsigned long int size);`
 		- where size is the size of the array
 
-01. djb2 [1-djb2.c]
+### 01. djb2 [1-djb2.c]
 - Write a hash function implementing the djb2 algorithm.
 	- Prototype: `unsigned long int hash_djb2(const unsigned char *str);`
 
-02. key -> index [2-key_index.c]
+### 02. key -> index [2-key_index.c]
 - Write a function that gives you the index of a key.
 	- Prototype: `unsigned long int key_index(const unsigned char *key, unsigned long int size);`
 		- where `key` is the key
 		- and `size` is the size of the array of the hash table
 
-03. >>> ht['betty'] = 'cool' [3-hash_table_set.c]
+### 03. `>>>` ht['betty'] = 'cool' [3-hash_table_set.c]
 - Write a function that adds an element to the hash table.
 	- Prototype: `int hash_table_set(hash_table_t *ht, const char *key, const char *value);`
 		- Where `ht` is the hash table you want to add or update the key/value to
@@ -24,28 +24,28 @@
 		- and `value` is the value associated with the key. `value` must be duplicated. value can be an empty string
 	- Returns: `1` if it succeeded, `0` otherwise
 
-04. >>> ht['betty'] [4-hash_table_get.c]
+### 04. `>>>` ht['betty'] [4-hash_table_get.c]
 - Write a function that retrieves a value associated with a key.
 	- Prototype: `char *hash_table_get(const hash_table_t *ht, const char *key);`
 		- where `ht` is the hash table you want to look into
 		- and key is the key you are looking for
 
 
-05. >>> print(ht) [5-hash_table_print.c]
+### 05. `>>>` print(ht) [5-hash_table_print.c]
 - Write a function that prints a hash table.
 	- Prototype: `void hash_table_print(const hash_table_t *ht);`
 		- where `ht` is the hash table
 		- You should print the key/value in the order that they appear in the array of hash table
 			- Order: array, list
 
-06. >>> del ht [6-hash_table_delete.c]
+### 06. `>>>` del ht [6-hash_table_delete.c]
 - Write a function that deletes a hash table.
 	- Prototype: `void hash_table_delete(hash_table_t *ht);`
 		- where `ht` is the hash table
 
-07. $ht['Betty'] = 'Cool'
-- Rewrite the previous functions using these data structures:`
-	- `shash_table_t *shash_table_create(unsigned long int size);
+### 07. $ht['Betty'] = 'Cool'
+- Rewrite the previous functions using these data structures:
+	- `shash_table_t *shash_table_create(unsigned long int size);`
 	- `int shash_table_set(shash_table_t *ht, const char *key, const char *value);`
 		- The key/value pair should be inserted in the sorted list at the right place
 		- Note that here we do not want to do exactly like `PHP`: we want to create a sorted linked list, by key (sorted on ASCII value), that we can print by traversing it. See example.
@@ -56,3 +56,5 @@
 		- Should print the hash tables key/value pairs in reverse order using the sorted linked list
 	- `void shash_table_delete(shash_table_t *ht);`
 	- You are allowed to have more than 5 functions in your file
+
+
